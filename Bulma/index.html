@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/bulma.min.css">
+</head>
+
+<body>
+    <div>
+        <h1 class="title is-2 has-text-centered">Student Overview</h1><br>
+        <section class="box mx-6">
+            <h1 class="title is-4 ">Nieuw Dagdoel</h1>
+            <div>
+                <label>Jouw dagdoel voor vandaag</label>
+                <input class="input is-rounded" type="text" placeholder="Dagdoel">
+            </div>
+            <div class="py-3">
+                <label>Wanneer moet het af?</label><br>
+                <input type="time" class="is-rounded">
+            </div>
+            <button class="button is-success" id="submit">Submit</button>
+        </section>
+        <section class="box mx-6">
+            <h1 class="title is-4">Jouw Dagdoelen</h1>
+            <div class="box p-2 is-clearfix">
+                <p class="is-pulled-left p-2">Javascript Leren</p><br><br>
+                <p class="is-pulled-left p-2">04:00 PM</p>
+                <button class="button is-danger p-4 is-pulled-right">Verwijderen</button>
+            </div>
+            <div class="box p-2 is-clearfix">
+                <p class="is-pulled-left p-2">meeting met Barack Obama</p><br><br>
+                <p class="is-pulled-left p-2">01:40 PM</p>
+                <button class="button is-danger p-4 is-pulled-right">Verwijderen</button>
+            </div>
+        </section>
+    </div>
+    <div>
+        <h1 class="title is-2 has-text-centered pt-3">Coach Overview</h1>
+        <section class="box mx-6">
+            <label>New Requests:</label>
+            <div class="box p-3 is-clearfix">
+                <p>Gordon Freeman</p>
+                <p class="py-3">C# Beginner</p>
+                <button class="button is-success">Accept</button>
+                <button class="button is-danger">Reject</button>
+            </div>
+
+        </section>
+    </div>
+</body>
+
+</html>
